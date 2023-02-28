@@ -21,3 +21,13 @@ Abrirá en el navegador predeterminado http://localhost:8501/, donde después se
 Se mostrará la información pertinente de los archivos, y se puede hacer uso de filtros para la iformación, en caso de que se necesite pasar la información a excel, estando ya filtrada, hasta abajo hay un botón con esta opción. El archivo resultante estará guardado en _./files/filtered-files_.
 
 Existe otra carpeta en files, el cual es _unfiltered-files_, donde podrás guardar los archivos que quieras analizar, aunque no es necesario.
+
+## Instrucciones
+
+
+
+1. [Clonar este repositorio](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository).
+2. Una vez clonado, nos paramos a la altura del README.md.
+3. Corremos el comando ``` 
+streamlit run ./src/app.py ```
+4. Nos abrirá el navegador prederteminado, donde correrá el software.
